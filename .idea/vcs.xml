@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$USER_HOME$/clones/electro-smith--DaisyExamples/libDaisy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/DaisySP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/DaisySP/DaisySP-LGPL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/libDaisy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/libDaisy/Drivers/CMSIS-DSP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/libDaisy/Drivers/CMSIS_5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/libDaisy/Drivers/STM32H7xx_HAL_Driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/libDaisy/Middlewares/ST/STM32_USB_Device_Library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/libDaisy/tests/googletest" vcs="Git" />
+  </component>
+</project>
