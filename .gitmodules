@@ -6,3 +6,6 @@
 	path = lib/DaisySP
 	url = https://github.com/electro-smith/DaisySP
 	shallow = true
+[submodule "lib/CMSIS-DSP"]
+	path = lib/CMSIS-DSP
+	url = https://github.com/ARM-software/CMSIS-DSP
