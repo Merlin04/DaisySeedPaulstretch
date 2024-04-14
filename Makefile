@@ -7,8 +7,8 @@ CFLAGS += -Ofast -ffast-math
 C_SOURCES += $(CMSIS_DSP)/Source/BasicMathFunctions/BasicMathFunctions.c \
  $(CMSIS_DSP)/Source/ControllerFunctions/ControllerFunctions.c \
  $(CMSIS_DSP)/Source/FastMathFunctions/FastMathFunctions.c \
- $(CMSIS_DSP)/Source/TransformFunctions/TransformFunctions.c
-# $(CMSIS_DSP)/Source/CommonTables/CommonTables.c
+ $(CMSIS_DSP)/Source/TransformFunctions/TransformFunctions.c \
+ $(CMSIS_DSP)/Source/CommonTables/CommonTables.c
 # $(CMSIS_DSP)/Source/InterpolationFunctions/InterpolationFunctions.c
 # $(CMSIS_DSP)/Source/BayesFunctions/BayesFunctions.c
 # $(CMSIS_DSP)/Source/MatrixFunctions/MatrixFunctions.c

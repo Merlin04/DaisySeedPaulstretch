@@ -12,7 +12,11 @@ DaisySeed hw;
 Pedal pedal(hw);
 
 float DSY_SDRAM_BSS loop_rec_buffer[sample_rate * 16]; // 16 seconds of audio
-float DSY_SDRAM_BSS stretched_buffer[sample_rate * 16 * 16]; // 16 seconds stretched up to x16 (about 12 MB)
+float DSY_SDRAM_BSS stretched_buffer_a[sample_rate * 16 * 9]; // 16 seconds stretched up to x9 (about 12 MB)
+float DSY_SDRAM_BSS stretched_buffer_b[sample_rate * 16 * 9];
+
+float* stretched_buffer = stretched_buffer_a;
+float* playback_stretched_buffer = nullptr;
 
 bool is_recording = false;
 size_t rec_pos = 0;
@@ -26,6 +30,10 @@ Paulstretch paulstretch(stretch);
 void stop_recording() {
     is_recording = false;
     pedal.SetLed(1, 0.0);
+
+    // switch buffers
+    playback_stretched_buffer = stretched_buffer;
+    stretched_buffer = stretched_buffer == stretched_buffer_a ? stretched_buffer_b : stretched_buffer_a;
 }
 
 void AudioCallback(const AudioHandle::InputBuffer in, const AudioHandle::OutputBuffer out, const size_t size) {

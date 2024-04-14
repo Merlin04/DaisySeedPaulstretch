@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$USER_HOME$/clones/electro-smith--DaisyExamples/libDaisy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/CMSIS-DSP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/DaisySP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/DaisySP/DaisySP-LGPL" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/libDaisy" vcs="Git" />
